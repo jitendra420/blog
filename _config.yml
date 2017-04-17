@@ -2,7 +2,8 @@
 title: Digital Blog Space
 email: "shaswat770@gmail.com"
 description: "Tech and Travel Photo Journal"
-url: "http://shaswatgupta.github.io"
+#url: "http://shaswatgupta.github.io"
+url: ""
 baseurl: ""
 facebook_username: "shaswat.gupta"
 twitter_username: "shaswat770"

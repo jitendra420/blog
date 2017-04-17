@@ -14,7 +14,7 @@
     "name": "India"
   },
   "jobTitle": "Software Engineer",
-  "address": 
+  "address": "Room No 155, Hall No 4, NIT Durgapur, West Bengal",
   "affiliation": {
     "@type": "Organization",
     "name": "Google",
@@ -39,4 +39,5 @@
     
   ]
 }
+
 </script>
