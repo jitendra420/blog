@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      ""
+title:      "Just a Test Drive"
 subtitle:   "Edgar Rice Burroughs"
 active: journal
 image:

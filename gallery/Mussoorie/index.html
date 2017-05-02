@@ -5,22 +5,9 @@ description: "masonry"
 active: gallery
 header-img: "img/gallery-bg.jpg"
 album-title: "Mussoorie Trip"
-images:
- - image_path: /img/galleries/Mussoorie/bg1.jpg
-   caption: IMAGE TITLE
-   copyright: © Digital Blog Space
- - image_path: /img/galleries/Mussoorie/bg2.jpg
-   caption: IMAGE TITLE
-   copyright: © Digital Blog Space
- - image_path: /img/galleries/Mussoorie/bg3.jpg
-   caption: IMAGE TITLE
-   copyright: © Digital Blog Space
- - image_path: /img/galleries/Mussoorie/bg4.jpg
-   caption: IMAGE TITLE
-   copyright: © Digital Blog Space
- - image_path: /img/galleries/Mussoorie/bg5.jpg
-   caption: IMAGE TITLE
-   copyright: © Digital Blog Space
+gallery-path: "img/galleries/Mussoorie"
+album-caption: Mussorie Trip
+copyright: © Digital Blog Space
 ---
 
 <html class="no-js" lang="en">
@@ -39,23 +26,24 @@ images:
 			<!-- Gallery __-->
 			<div class="gallery masonry-gallery">
 		
-{% for image in page.images %}  		
+
+{% for image in site.static_files %}
+    {% if image.path contains page.gallery-path %}  		
 
 				<figure class="gallery-item">
 					<header class='gallery-icon'>
 
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
-						
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.path }}" class="popup"  title="{{ page.album-caption }}" data-caption="{{ page.copyright }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.path }}"></a>
 					</header>	
-					<figcaption class='gallery-caption'>
+				<!--	<figcaption class='gallery-caption'>
 						<div class="entry-summary" id="{{ image.caption }}">
 							<h3>{{image.caption}}</h3>
 							<p>{{image.copyright}}</p>
 						</div>
-					</figcaption>
+					</figcaption> -->
 				</figure>
-				
+		{% endif %}		
 {% endfor %}
 
 			</div>

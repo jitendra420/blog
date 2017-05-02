@@ -84,8 +84,15 @@
                     </li>
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
-<center><h6><p>Powered by <a href="https://github.com/jekyll/">Jekyll</a>.</p></h6></center>
+            <center><h6><p>Powered by <a href="https://github.com/jekyll/">Jekyll</a>.</p></h6></center>
+            {% if page.url contains "/about/" %}
+
+            <center><h6><p>Download<a href="{{ site.baseurl }}/jsonld/{{ page.url }}.jsonld" download="" "> json+ld {{ page.url }}</a>.</p></h6></center>
+            {% endif %}
             </div>
+            
+
+
         </div>
     </div>
 </footer>

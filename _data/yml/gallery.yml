@@ -1,0 +1,17 @@
+images:
+ - image_path: /img/galleries/albums/Mussoorie.jpg
+   gallery-folder: /gallery/Mussoorie/
+   gallery-name: Mussoorie,Himachal Pradesh
+   gallery-date: June 2016
+ - image_path: /img/galleries/albums/Sikar.jpg
+   gallery-folder: /gallery/Sikar/
+   gallery-name: Harshnath Temple, Sikar, Rajasthan
+   gallery-date: June 2016
+ - image_path: /img/galleries/albums/Meghalaya.jpg
+   gallery-folder: /gallery/Meghalaya
+   gallery-name: Meghalaya
+   gallery-date: Dec 2017
+ - image_path: /img/galleries/albums/Durgapur.jpg
+   gallery-folder: /gallery/Durgapur
+   gallery-name: Durgapur
+   gallery-date: Jan 2017
