@@ -1,23 +1,23 @@
 # Site settings
 title: Digital Blog Space
-email: "shaswat770@gmail.com"
+email: "bidasarjitendra@gmail.com"
 description: "Tech and Travel Photo Journal"
-url: "https://shaswatgupta.github.io"
+url: "https://bidasarjitendra.github.io"
 #url: ""
 baseurl: ""
-facebook_username: "shaswat.gupta"
-twitter_username: "shaswat770"
-instagram_username: "shaswatgupta"
-github_username:  "shaswatgupta"
+facebook_username: "bidasar.jitendra"
+twitter_username: "bidasarjitendra"
+instagram_username: "jitendra0807"
+github_username:  "jitendra420"
 deviantart_username: 
-flickr_username: "shaswatgupta"
-discus_shortname: "shagup770"
+flickr_username: "bidasarjitendra"
+discus_shortname: "bidasarjitendra"
 share: true
 
 # Owner/author information
 owner:
-  name:   Shaswat Gupta
-  avatar: shaswatgupta.jpg
+  name:   jitendra bidasar
+  avatar: jitendra.jpg
   favicon: favicon.ico
   info: personal website
 
@@ -30,7 +30,7 @@ owner:
 comments :
   provider : disqus
   disqus :
-    short_name : "shagup770"
+    short_name : "bidasarjitendra"
 
 # Internal nav
 nav:
